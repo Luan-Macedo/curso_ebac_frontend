@@ -1,124 +1,57 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-body > header{
-    background-color: blueviolet;
-    padding: 16px 0;
-    color: aliceblue;
+body{
+    background-color: aliceblue;
+    padding-top: 100px;
 }
 
-header .container{
-    display: flex;
+header{
     align-items: center;
-    justify-content: space-between;
+    display: flex;
+    margin-bottom: 16px;
 }
 
-header li{
-    display: inline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+header h1{
+    font-size: 24px;
     font-weight: bold;
-    margin-left: 16px;
-}
-
-header li a{
-    color: aliceblue;
-    text-decoration: none;
 }
 
 .container{
-    width: 1330px;
-    margin: 0 auto;
+    padding-left: 700px;
 }
 
-.articles{
+form{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.articles article img{
-    /* height: 180px; */
+    max-width: 240px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
-.articles article{
-    width: 30%;
-}
-section{
-    padding: 16px 0;
-}
-
-section h2,
-.articles article{
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.articles article h3{
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.articles article a{
-    background-color: blue;
-    color: white;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
+form input{
+    background-color: white;
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 8px;
+    padding: 4px;
+    margin-right: 4px;
 }
 
-.articles article a:hover{
-    text-decoration: underline;
+form button{
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px;
 }
 
-.articles article p,
-.articles article a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.articles article h3{
-    font-size: 24px;
-}
-
-section h2{
-    font-size: 32px;
-}
-
-#sports{
-    background-color: rgba(0, green, 0, 1);
-}
-
-#sports .articles article a{
-    background-color: greenyellow;
-}
-
-#economy{
-    background-color: cornflowerblue;
-}
-
-#economy .articles article a{
-    background-color: blue;
-}
-
-#entertainment{
-    background-color: orange;
-}
-
-#entertainment .articles article a{
-    background-color: orangered;
-
-}
-
-#tecnology{
-    background-color: deepskyblue;
-}
-
-#tecnology .articles article a{
-    background-color: blueviolet;
-
+ul li a{
+    text-decoration: none;
+    color: black;
 }
